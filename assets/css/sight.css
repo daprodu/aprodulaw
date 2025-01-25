@@ -17,15 +17,17 @@ body{
 	text-transform: uppercase;
 	color: #fff;
 	text-align: center;
-	padding: 66px 0px;
+	padding: 66px 2px;
 }
 .title{
 	letter-spacing: 8px;
-	font-size: 30px;
+	font-size: 40px;
+	text-decoration: overline;
+
 }
 .subtitle{
 	letter-spacing: 5px;
-	font-size: 12px;
+	font-size: 22px;
 }
 .pages{
 	text-align: center;
@@ -36,7 +38,7 @@ body{
 	letter-spacing: 5px;
 	color: #444;
 	padding: 0px 0px 20px 0px;
-	margin: 0px;
+	
 }
 .page-img{
 	width: 100%;
@@ -55,6 +57,37 @@ footer{
 	color: #999;
 	margin: 0px;
 	font-size: 14px;
+	
+}
+a {
+	display:inline-block;
+}
+.post h2 h1{
+	color: #4260b4;
+}
+.menu  {
+	margin-top:-95px;
+}
+
+.menu ul li {
+	display: block;
+	margin-left: 20px;
+	font-size: 20px;
+	border-radius: 10px;
+	border:solid green 1px;
+	text-align: center;
+		
+	padding: 10px;
+}
+.menu ul {
+	display : flex;
+}
+.post {
+	margin-left: 50px;
+	margin-right: 20px;
+	font-size: 18px;
+	
+	  
 }
 
 
